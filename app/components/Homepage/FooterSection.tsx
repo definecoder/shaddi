@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { toast } from "react-toastify";
 // import Image from "next/image";
 
 export const FooterSection = () => {
@@ -115,7 +116,36 @@ export const FooterSection = () => {
         </div>
       </div>
       <div className="flex justify-end mt-8">
-        <button className="px-[17vw] text-2xl py-3.5 rounded-xl text-center bg-[#ffffff20]">Signup</button>
+        <button
+          className="px-[17vw] text-2xl py-3.5 rounded-xl text-center bg-[#ffffff20]"
+          onClick={async () => {
+            try {
+              const response = await fetch(
+                "https://the-shadi-server.onrender.com/api/v1/vendors/enroll",
+                {
+                  method: "POST",
+                  body: JSON.stringify({
+                    businessName: businessName,
+                    contactEmail: contactDetails,
+                  }),
+                  headers: {
+                    "Content-Type": "application/json",
+                  },
+                }
+              );
+              const data = await response.json();
+              console.log(data);
+              setBusinessName("");
+              setContactDetails("");
+              toast.success("Signup successful");
+            } catch (error) {
+              console.error(error);
+              toast.error("Signup failed");
+            }
+          }}
+        >
+          Signup
+        </button>
       </div>
     </div>
   );
