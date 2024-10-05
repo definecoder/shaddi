@@ -14,7 +14,7 @@ export const FooterSection = () => {
 
   const getStyles = (serviceName: string) => {
     const baseStyle = selectedServices.includes(serviceName)
-      ? { fontSize: "3.5rem", marginTop: "-4.5rem", marginLeft: "1.5rem" }
+      ? { fontSize: "2.5rem", marginTop: "-4.5rem", marginLeft: "1.5rem" }
       : { fontSize: "2rem", marginTop: "-3rem", marginLeft: "1.5rem" };
 
     if (windowWidth < 700) {
@@ -270,7 +270,7 @@ export const FooterSection = () => {
             try {
               setLoading(true);
               const response = await fetch(
-                "https://the-shadi-server.onrender.com/api/v1/vendors/enroll",
+                "https://the-shadi-server-git-main-shawonmajids-projects.vercel.app/api/v1/vendors/enroll",
                 {
                   method: "POST",
                   body: JSON.stringify({
@@ -288,7 +288,7 @@ export const FooterSection = () => {
               setBusinessName("");
               setContactDetails("");
               toast.success(
-                "Thank you for becoming our vendor, We will reach you out soon!"
+                "Thank you for becoming our vendor, We will reach out soon!"
               );
               setLoading(false);
             } catch (error) {

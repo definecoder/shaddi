@@ -46,7 +46,7 @@
 
 .marquee {
   display: inline-block;
-  animation: marquee 7s linear alternate infinite;
+  animation: marquee 8s linear alternate infinite;
 }
 
 .marquee-image {
@@ -59,7 +59,7 @@
     transform: translateX(10%);
   }
   100% {
-    transform: translateX(-110%);
+    transform: translateX(-125%);
   }
 }
 

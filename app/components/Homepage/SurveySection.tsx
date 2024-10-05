@@ -12,16 +12,16 @@ export const SurveySection = () => {
         </div>
       </div>
       <div className="w-full md:w-[70%] xl:w-[55%] py-3">
-        <h1 className="text-lg md:text-2xl">Staying within budget</h1>
-        <SkillPercentage percentage={100} />
+        <h1 className="text-lg md:text-2xl">Staying in budget</h1>
+        <SkillPercentage percentage={50} />
       </div>
       <div className="w-full md:w-[70%] xl:w-[55%] py-3">
-        <h1 className="text-lg md:text-2xl">Not knowing about costs</h1>
-        <SkillPercentage percentage={79} />
+        <h1 className="text-lg md:text-2xl">Knowing where to start</h1>
+        <SkillPercentage percentage={46} />
       </div>
       <div className="w-full md:w-[70%] xl:w-[55%] py-3">
-        <h1 className="text-lg md:text-2xl">Not knowing where to start</h1>
-        <SkillPercentage percentage={74} />
+        <h1 className="text-lg md:text-2xl">Managing time & stress</h1>
+        <SkillPercentage percentage={44} />
       </div>
     </div>
   );

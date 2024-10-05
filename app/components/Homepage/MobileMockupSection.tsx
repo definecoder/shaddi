@@ -28,7 +28,7 @@ export const MobileMockupSection = () => {
           />
         </div>
       </div>
-      <div className="hidden md:flex justify-evenly ">
+      <div className="hidden md:flex justify-evenly">
         <Image
           src={"/mobilemockup1.png"}
           alt="Image 1"
