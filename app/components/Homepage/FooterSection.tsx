@@ -270,7 +270,7 @@ export const FooterSection = () => {
             try {
               setLoading(true);
               const response = await fetch(
-                "https://the-shadi-server-git-main-shawonmajids-projects.vercel.app/api/v1/vendors/enroll",
+                "https://the-shadi-server.vercel.app/api/v1/vendors/enroll",
                 {
                   method: "POST",
                   body: JSON.stringify({

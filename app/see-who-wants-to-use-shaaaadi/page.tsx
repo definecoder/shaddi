@@ -22,7 +22,7 @@ const AdminPage = () => {
     // Fetch the data from the API
     const fetchData = async () => {
       try {
-        const response = await fetch("https://the-shadi-server-git-main-shawonmajids-projects.vercel.app/api/v1/vendors/");
+        const response = await fetch("https://the-shadi-server.vercel.app/api/v1/vendors/");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
