@@ -1,9 +1,8 @@
-import Image from "next/image";
-
 export const MobileMockupSection = () => {
   return (
     <div className="md:my-6">
-      <div className="md:hidden marquee-container">
+      <img src={"/mobilemockup.png"} alt="mobile mockup" className="px-6 md:px-12 xl:px-20 w-max h-auto" />
+      {/* <div className="md:hidden marquee-container">
         <div className="marquee">
           <Image
             src={"/mobilemockup1.png"}
@@ -47,7 +46,7 @@ export const MobileMockupSection = () => {
           width={335}
           height={680}
         />
-      </div>
+      </div> */}
     </div>
   );
 };

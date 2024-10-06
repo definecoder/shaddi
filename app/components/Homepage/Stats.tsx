@@ -4,7 +4,7 @@ export const Stats = () => {
       <div>
         <h1 className="font-semibold text-[#AE3A8E] text-6xl">46%</h1>
         <p className="text-xl">Of couples spend between,</p>
-        <p className="text-xl font-bold">£50K-£100K on thier wedding</p>
+        <p className="text-xl font-bold">£50K-£100K on their wedding</p>
       </div>
       <div>
         <h1 className="font-semibold text-[#AE3A8E] text-6xl">14</h1>
