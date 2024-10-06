@@ -29,7 +29,7 @@ export const RoadMapSection = () => {
             <div className="text-[#AE3A8E] font-bold text-3xl">
               Market Research
             </div>
-            <div className="text-justify text-xl md:text-2xl max-w-[60vw] md:max-w-[50vw]">
+            <div className="text-left text-xl md:text-2xl max-w-[60vw] md:max-w-[50vw]">
               We’ve identified the problem and thought of a solution that will
               revolutionise the gap in the market
             </div>
@@ -46,7 +46,7 @@ export const RoadMapSection = () => {
           <div className="text-8xl font-semibold text-[#AE3A8E]">2</div>
           <div className="flex flex-col gap-2">
             <div className="text-[#AE3A8E] font-bold text-3xl">Design</div>
-            <div className="text-justify text-xl md:text-2xl max-w-[60vw] md:max-w-[55vw]">
+            <div className="text-left text-xl md:text-2xl max-w-[60vw] md:max-w-[55vw]">
               With the customer experience and simplicity of use at heart, the
               marketplace has been designed by leading business accelerator
               <img
@@ -105,7 +105,7 @@ export const RoadMapSection = () => {
           <div className="text-8xl font-semibold">4</div>
           <div className="flex flex-col gap-2">
             <div className="font-bold text-3xl">Soft launch</div>
-            <div className="text-justify text-xl md:text-2xl max-w-[60vw] md:max-w-[50vw]">
+            <div className="text-left text-xl md:text-2xl max-w-[60vw] md:max-w-[50vw]">
               We can only do this with your help - the vendors - so sign up now
               to be a part of something special!
             </div>
@@ -122,7 +122,7 @@ export const RoadMapSection = () => {
           <div className="text-8xl font-semibold">5</div>
           <div className="flex flex-col gap-2">
             <div className="font-bold text-3xl">Go Live!</div>
-            <div className="text-justify text-xl md:text-2xl max-w-[60vw] md:max-w-[50vw]">
+            <div className="text-left text-xl md:text-2xl max-w-[60vw] md:max-w-[50vw]">
               We aim to go live early next year to customers, and we will go big
               with a largescale & effective go-to market plan
             </div>
