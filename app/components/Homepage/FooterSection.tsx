@@ -76,6 +76,7 @@ const FooterItem = ({
 export const FooterSection = () => {
   const [businessName, setBusinessName] = useState("");
   const [contactDetails, setContactDetails] = useState("");
+  const [contactNumber, setContactNumber] = useState(""); 
   const [selectedServices, setSelectedServices] = useState<string[]>([]);
   const [windowWidth, setWindowWidth] = useState(1920);
   const [loading, setLoading] = useState<boolean>(false);
@@ -107,7 +108,7 @@ export const FooterSection = () => {
           Sign up to our mailing list and stay up to date!
         </p>
       </div>
-      <div className="mt-[10vh] grid md:grid-cols-2 gap-6">
+      <div className="mt-[10vh] grid md:grid-cols-3 gap-6">
         <div>
           <h1 className="text-2xl">Business Name</h1>
           <input
@@ -119,7 +120,7 @@ export const FooterSection = () => {
           />
         </div>
         <div>
-          <h1 className="text-2xl">Contact Details</h1>
+          <h1 className="text-2xl">Contact Email</h1>
           <input
             type="text"
             value={contactDetails}
@@ -127,6 +128,18 @@ export const FooterSection = () => {
             placeholder="Enter your email"
             className="w-full bg-[#ffffff] text-black p-2 rounded-lg mt-2 focus:outline-none px-6 py-3.5 placeholder:text-[#00000080]"
           />
+        
+        </div>
+        <div>
+          <h1 className="text-2xl">Contact Number</h1>
+          <input
+            type="text"
+            value={contactNumber}
+            onChange={(e) => setContactNumber(e.target.value)}
+            placeholder="Enter your telephone number"
+            className="w-full bg-[#ffffff] text-black p-2 rounded-lg mt-2 focus:outline-none px-6 py-3.5 placeholder:text-[#00000080]"
+          />
+        
         </div>
       </div>
 
@@ -251,6 +264,7 @@ export const FooterSection = () => {
                   body: JSON.stringify({
                     businessName: businessName,
                     contactEmail: contactDetails,
+                    contactNumber: contactNumber,
                     chosenServices: selectedServices,
                   }),
                   headers: {

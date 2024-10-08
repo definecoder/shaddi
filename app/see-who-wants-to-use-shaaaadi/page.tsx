@@ -8,6 +8,7 @@ interface Vendor {
   id: string;
   businessName: string;
   contactEmail: string;
+  contactNumber: string;
   createdAt: string;
   updatedAt: string;
   chosenServices: string[];
@@ -52,6 +53,7 @@ const AdminPage = () => {
               {/* <th className="py-3 px-6 text-left">ID</th> */}
               <th className="py-3 px-6 text-left">Business Name</th>
               <th className="py-3 px-6 text-left">Contact Email</th>
+              <th className="py-3 px-6 text-left">Contact Number</th>
               <th className="py-3 px-6 text-left">Choosen Services</th>
               <th className="py-3 px-6 text-left">Created At</th>
               <th className="py-3 px-6 text-left">Updated At</th>
@@ -63,6 +65,7 @@ const AdminPage = () => {
                 {/* <td className="py-3 px-6">{vendor.id}</td> */}
                 <td className="py-3 px-6">{vendor.businessName}</td>
                 <td className="py-3 px-6">{vendor.contactEmail}</td>
+                <td className="py-3 px-6">{vendor.contactNumber}</td>
                 <td className="py-3 px-6">{vendor?.chosenServices?.join(", ")}</td>
                 <td className="py-3 px-6">
                   {new Date(vendor.createdAt).toLocaleString()}
