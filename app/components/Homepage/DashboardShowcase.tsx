@@ -39,6 +39,8 @@ export const DashboardShowcase = () => {
           We’ll provide you with key marketing data insights, allowing you to
           maximise your bookings, push your brands, and get the reach and
           engagement you need for your business.
+          <br />
+          <strong>Free to sign up on with no monthly fees!</strong>
         </div>
       </div>
     </>
