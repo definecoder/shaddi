@@ -211,7 +211,7 @@ export const FooterSection = () => {
         />
         <FooterItem
           src="/statonary.png"
-          serviceName="Stationary"
+          serviceName="Stationery"
           selectedServices={selectedServices}
           setSelectedServices={setSelectedServices}
           windowWidth={windowWidth}
