@@ -12,14 +12,14 @@ const getStyles = (
 ) => {
   const baseStyle = selectedServices.includes(serviceName)
     ? { fontSize: "2.5rem", marginTop: serviceName.length > 18 ? "-6.5rem" :"-4.5rem", marginLeft: "1.5rem", lineHeight: "2.5rem" }
-    : { fontSize: "2rem", marginTop: "-3rem", marginLeft: "1.5rem" };
+    : { fontSize: "2rem", marginTop: serviceName.length > 22 ? "-5rem" : "-3rem", marginLeft: "1.5rem" };
 
   if (windowWidth < 700) {
     // Example media query for screens smaller than 768px
     return {
       ...baseStyle,
       fontSize: selectedServices.includes(serviceName) ? "1.1rem" : "1rem",
-      marginTop: selectedServices.includes(serviceName) ? serviceName.length > 16 ? "-3rem" : "-2.5rem" : serviceName.length > 16 ? "-3rem" : "-2rem",
+      marginTop: selectedServices.includes(serviceName) ? serviceName.length > 16 ? "-3rem" : "-2.5rem" : serviceName.length > 22 ? "-3rem" : "-2rem",
       marginLeft: "0.7rem",
       lineHeight: "1.2rem",
     };
