@@ -5,7 +5,7 @@ export const DashboardShowcase = () => {
   return (
     <>
       <Image
-        src="https://s3-alpha-sig.figma.com/img/a48f/9bce/e4f4dac52bdf7f5cf34f7802ab64fba1?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=STm70PvY1KnKgh1tIQuOaSnzYHrgzjqVD6v1cTtBxx5lqNHN4HKKRg3hIqSH6LkKndVMRUkgxBAXO6AWcY53J9-hDI3ATrb0OCxqVlnRQ60~85w4fAVbz-4VY~6Hj-RMuhjysBdxd04omqOMQZpCMuVdEpD6SU7s8yCJuorZb0q~1PdMyRTbww6qRktHtmUZ6ZjU14MdB9zYsEGcdyMWNIZHIW~i4gGdXaj77k7pCUQaAgtIaqJBTFAjXBqlIpdh66v0ljB~jQVD8NkDtGavX489Oomohb0IQmnOmTH6jKZ1c-QDAEih3gcRyICYA7sPQixbsO3LyYi4F6yTdKOagg__"
+        src="/red-couple-bg.jpeg"
         alt="Dashboard Showcase"
         width={1920}
         height={1080}

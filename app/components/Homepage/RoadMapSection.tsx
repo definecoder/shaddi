@@ -50,7 +50,7 @@ export const RoadMapSection = () => {
               With the customer experience and simplicity of use at heart, the
               marketplace has been designed by leading business accelerator
               <img
-                src="https://s3-alpha-sig.figma.com/img/225f/96e2/51871ec6a030c7401cd68b447010ea40?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CCJ8iGawXnPy3JdYsCtw9Rfw8GYgsvkfYeGDds73CE3BLey0RR~3rYj9F524Yp5rzucnfGv7dCdwOy4gQl67iIqHap5OkbJq3uUkV1R~VURJWAbQLanre45IXsDGPe82hABpEgu0uzWHILQmAU2UaLwiIEZmhDiXMO3HiI19Ml1hDd89CYp-PxrK1NSJ3Fq73UXmHZky2uYyxIedXJaR-RLZ02rBwcrUP0ckXKj8ldqb9u2ObqFcfJv5iXEf99XjrJuqh-KtDwFA2cY0~KPjYMF95kz6sAdqBnlwi4Fki7HjHQRvJyv00F1rlowvqMV3hKzChrX0n4Pphj0Zekepow__"
+                src="/hyperLogo.png"
                 alt="hyper-logo"
                 className="w-16 md:w-24 h-auto inline-block ml-4"
               />
