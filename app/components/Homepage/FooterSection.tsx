@@ -189,8 +189,22 @@ export const FooterSection = () => {
           windowWidth={windowWidth}
         />
         <FooterItem
-          src="/hair_makeup_mehendi.png"
-          serviceName="Hair, Make Up & Mehndi"
+          src="/mehendi.png"
+          serviceName="Mehndi"
+          selectedServices={selectedServices}
+          setSelectedServices={setSelectedServices}
+          windowWidth={windowWidth}
+        />
+        <FooterItem
+          src="/hairMakeup.jpeg"
+          serviceName="Hair & Makeup"
+          selectedServices={selectedServices}
+          setSelectedServices={setSelectedServices}
+          windowWidth={windowWidth}
+        />
+        <FooterItem
+          src="/outfitjwel.png"
+          serviceName="Outfit Jewellery"
           selectedServices={selectedServices}
           setSelectedServices={setSelectedServices}
           windowWidth={windowWidth}
